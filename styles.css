@@ -1,0 +1,91 @@
+body {
+	font-family: 'Lato', Arial, Helvetica, sans-serif;
+	font-weight: 300;
+	text-align: center;
+	background-color: #ba8cbf;
+	background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23934c93' fill-opacity='0.51' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+h2 {
+	margin-top: 0px;
+}
+
+p {
+	text-align: left;
+}
+
+.container {
+	width: 80%;
+	margin: 20px auto 0;
+	padding: 15px;
+	border-radius: 10px;
+	background-color: #fefefe;
+	box-shadow: 1px 1px 10px 0px rgba(102,102,102,1);
+}
+
+.col {
+	width: 50%;
+}
+
+.logo {
+	width: 90%;
+}
+
+.detailed-info {
+	display: flex;
+	justify-content: space-around;
+}
+
+.detailed-info > .col > p {
+	text-align: center;
+}
+
+.social {
+	width: 50%;
+	margin: 0 auto;
+}
+
+.social h3 {
+	margin-bottom: .5em;
+}
+
+.social-icon-container {
+	display: flex;
+	justify-content: center;
+}
+
+.social-icon {
+	height: 35px;
+	width: 35px;
+	margin: 0 5px;
+}
+
+.linkedin {
+	background: url(img/linkedin.svg) no-repeat;
+}
+
+.github {
+	background: url(img/github.svg) no-repeat;
+}
+
+.twitter {
+	background: url(img/twitter.svg) no-repeat;
+}
+
+.pinterest {
+	background: url(img/pinterest.svg) no-repeat;
+}
+
+@media only screen and (min-width: 600px) {
+	.container {
+		width: 50%;
+		margin: 25px auto 0;
+		padding: 25px 50px;
+	}
+}
+
+@media only screen and (min-width: 850px) {
+	.logo {
+		width: 60%;
+	}
+}
