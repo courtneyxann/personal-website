@@ -11,6 +11,7 @@ h2 {
 }
 
 p {
+	font-size: 16px;
 	text-align: left;
 }
 
@@ -24,7 +25,7 @@ p {
 }
 
 .col {
-	width: 50%;
+	width: 100%;
 }
 
 .logo {
@@ -32,8 +33,7 @@ p {
 }
 
 .detailed-info {
-	display: flex;
-	justify-content: space-around;
+	width: 100%;
 }
 
 .detailed-info > .col > p {
@@ -41,7 +41,7 @@ p {
 }
 
 .social {
-	width: 50%;
+	width: 100%;
 	margin: 0 auto;
 }
 
@@ -81,6 +81,18 @@ p {
 		width: 50%;
 		margin: 25px auto 0;
 		padding: 25px 50px;
+	}
+	.col {
+		width: 50%;
+	}
+
+	.social {
+		width: 50%;
+	}
+
+	.detailed-info {
+		display: flex;
+		justify-content: space-around;
 	}
 }
 
