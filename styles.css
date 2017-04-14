@@ -11,7 +11,6 @@ h2 {
 }
 
 p {
-	font-size: 16px;
 	text-align: left;
 }
 
@@ -24,25 +23,12 @@ p {
 	box-shadow: 1px 1px 10px 0px rgba(102,102,102,1);
 }
 
-.col {
-	width: 100%;
-}
-
 .logo {
 	width: 90%;
 }
 
-.detailed-info {
-	width: 100%;
-}
-
 .detailed-info > .col > p {
 	text-align: center;
-}
-
-.social {
-	width: 100%;
-	margin: 0 auto;
 }
 
 .social h3 {
@@ -55,8 +41,8 @@ p {
 }
 
 .social-icon {
-	height: 35px;
-	width: 35px;
+	height: 75px;
+	width: 75px;
 	margin: 0 5px;
 }
 
@@ -88,11 +74,17 @@ p {
 
 	.social {
 		width: 50%;
+		margin: 0 auto;
 	}
 
 	.detailed-info {
 		display: flex;
 		justify-content: space-around;
+	}
+
+	.social-icon {
+		width: 35px;
+		height: 35px;
 	}
 }
 
