@@ -12,7 +12,9 @@ $('#vmap').vectorMap(
         ne: '#ba8cbf',
         tx: '#ba8cbf',
         tn: '#ba8cbf',
-        az: '#ba8cbf'
+        az: '#ba8cbf',
+        wi: '#ba8cbf',
+        il: '#ba8cbf'
     },
     hoverOpacity: null,
     normalizeFunction: 'linear',
@@ -23,6 +25,8 @@ $('#vmap').vectorMap(
         ne: '#781D7E',
         tx: '#781D7E',
         tn: '#781D7E',
-        az: '#781D7E'
+        az: '#781D7E',
+        wi: '#781D7E',
+        il: '#781D7E'
     }
 });
