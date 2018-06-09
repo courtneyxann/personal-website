@@ -14,6 +14,18 @@ p {
 	text-align: left;
 }
 
+a:link {
+	color: #781D7E;
+}
+
+a:visited {
+	color: #727272;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
 .container {
 	width: 80%;
 	margin: 20px auto 0;
