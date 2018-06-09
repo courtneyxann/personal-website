@@ -107,3 +107,17 @@ p {
 	width: 100%;
 	min-height: 500px;
 }
+
+/* ---------------------
+
+   Presentations Page
+
+---------------------- */
+
+.presentations {
+	text-align: left;
+}
+
+.presentations h1 {
+	text-align: center;
+}
