@@ -14,7 +14,9 @@ $('#vmap').vectorMap(
         tn: '#ba8cbf',
         az: '#ba8cbf',
         wi: '#ba8cbf',
-        il: '#ba8cbf'
+        il: '#ba8cbf',
+        ok: '#ba8cbf',
+        ut: '#ba8cbf'
     },
     hoverOpacity: null,
     normalizeFunction: 'linear',
@@ -27,6 +29,8 @@ $('#vmap').vectorMap(
         tn: '#781D7E',
         az: '#781D7E',
         wi: '#781D7E',
-        il: '#781D7E'
+        il: '#781D7E',
+        ok: '#781D7E',
+        ut: '#781D7E'
     }
 });
