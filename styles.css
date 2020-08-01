@@ -74,6 +74,17 @@ a:hover {
 	background: url(img/pinterest.svg) no-repeat;
 }
 
+.sr-only {
+	position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
 @media only screen and (min-device-width: 600px) {
 	.container {
 		width: 50%;
